@@ -22,6 +22,7 @@ body {
   opacity: 0.5;
 }
 .words {
+  font-size: 20px;  
   text-align: left;
   color: white;
   position: fixed;
