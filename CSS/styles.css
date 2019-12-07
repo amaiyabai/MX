@@ -1,16 +1,19 @@
 body {
-    background-image: url("https://raw.githubusercontent.com/amaiyabai/MX/master/images/P4042400.jpg");
-    background-position: right 70% bottom 86%;
-  }
+  background-image: url("https://raw.githubusercontent.com/amaiyabai/MX/master/images/P4042400.jpg");
+  background-position: right 70% bottom 86%;
+}
 
-a:link, a:visited {
-    background-color: #FFFFFF;
-    color: #778899;
-    text-decoration: none;
-  }
+a {
+  background-color: #FFFFFF;
+  color: #778899;
+  text-decoration: none;
+}
 
 a:active {
-  color: #000000;
+  color: #778899;
+}
+a:visited {
+  background-color: #FFFFFF;
 }
 
 /* BIO */
