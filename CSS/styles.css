@@ -24,7 +24,7 @@ a:visited {
   position: fixed;
   top: 12%;
   left: 4%;
-  font-style: Optima, sans-serif;
+  font-style: normal;
 }
 
 /* FRIST LINK */
@@ -43,7 +43,7 @@ a:visited {
   font-size: 50px;
   font-weight: 100;
   letter-spacing: 8px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 /*SECOND LINK*/
@@ -62,7 +62,7 @@ a:visited {
   font-size: 50px;
   font-weight: 100;
   letter-spacing: 8px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 /*THIRD LINK*/
@@ -81,5 +81,5 @@ a:visited {
   font-size: 50px;
   font-weight: 100;
   letter-spacing: 8px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
