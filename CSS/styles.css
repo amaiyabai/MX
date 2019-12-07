@@ -3,6 +3,17 @@ body {
     background-position: right 70% bottom 86%;
   }
 
+/* BIO */
+.words {
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  position: fixed;
+  top: 12%;
+  left: 4%;
+  font-style: Optima, sans-serif;
+}
+
 /* FRIST LINK */
 .link {
   text-align: center;
@@ -58,17 +69,6 @@ body {
   font-weight: 100;
   letter-spacing: 8px;
   opacity: 0.5;
-}
-
-/* BIO */
-.words {
-  font-size: 20px;
-  text-align: left;
-  color: white;
-  position: fixed;
-  top: 12%;
-  left: 4%;
-  font-style: Optima, sans-serif;
 }
 
 a:link {
