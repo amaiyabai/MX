@@ -3,6 +3,7 @@ body {
     background-position: right 70% bottom 86%;
   }
 
+/* LINK CODES */
 .link {
   text-align: center;
   position: fixed;
@@ -20,7 +21,6 @@ body {
   letter-spacing: 8px;
   opacity: 0.5;
 }
-
 .words {
   text-align: left;
   color: white;
@@ -30,31 +30,10 @@ body {
   font-style: Optima, sans-serif;
 }
 
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #ffc0cb;
-    border-width: 7px;
-    width: 2%;
-  }
-
-h1 {
-    text-align: center;
-    color: #ffffff;
-  }
-
-h2 {
-    color: #FFFFE0;
-  }
-
-img {
-  border:3px dashed #708090;
-  }
-
 a:link {
     background-color: #FFFFFF;
   }
 
 a:visited {
-    color: #000000;
+    color: #FFFFFF;
   }
