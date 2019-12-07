@@ -31,14 +31,12 @@ body {
 }
 
 /* HYPERLINK COLORS */
-a:link {
+a:link, a:visited {
   background-color: #FFFFFF;
+  color: #000000;
+  text-decoration: none;
 }
 
 a:active {
   color: #696969;
-}
-
-a:visited {
-  color: #000000;
 }
