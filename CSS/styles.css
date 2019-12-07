@@ -33,7 +33,9 @@ body {
 a:link {
     background-color: #FFFFFF;
   }
-
+a:active {
+    color: #696969;
+  }
 a:visited {
-    color: #FFFFFF;
+    color: #000000;
   }
