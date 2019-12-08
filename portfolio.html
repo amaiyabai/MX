@@ -30,7 +30,7 @@
 </div>
 
 <div class="mySlides fade">
-     <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/8062844_8062844-R1-014-5A.jpg" style="width:112%">
+     <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/8062844_8062844-R1-014-5A.jpg" style="width:111%">
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -40,9 +40,9 @@
 <br>
 
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
 <script>
@@ -61,15 +61,15 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
