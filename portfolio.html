@@ -7,24 +7,39 @@
   </head>
   <body>
     <hr>
-    <div class="row">
-      <div class="column">
-        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/FUKUOKA_JKIM.jpg" width="450"
-        height="340">
-        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/home.jpg" width="450"
-        height="340">
-        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/PA241626.jpg" width="450"
-        height="340">
+    <center>
+    <div class="w3-content w3-section" style="max-width:500px">
+        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/FUKUOKA_JKIM.jpg" style="width:100%">
+        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/home.jpg" style="width:100%">
+        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/PA241626.jpg" style="width:100%">
+        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/OI000043.jpg" style="width:100%">
+        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/jpn1.jpg" style="width:102%">
+        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/8062844_8062844-R1-014-5A.jpg" style="width:112%">
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
     </div>
-    <div class="row">
-      <div class="column">
-        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/OI000043.jpg" width="450"
-        height="340">
-        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/jpn1.jpg" width="450"
-        height="340">
-        <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/8062844_8062844-R1-014-5A.jpg" width="450"
-        height="340">
-    </div>
+  </center>
+    
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("fuk");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+    </script>
+      
     <hr>
   </body>
 </html>
