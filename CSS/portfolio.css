@@ -1,5 +1,5 @@
 body {
-  background-color: #F2F9FF;
+  background-color: #FFF;
   overflow: hidden;
 }
 
@@ -41,6 +41,10 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
+.prev:hover, .next:hover {
+  background-color: slategrey;
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -66,7 +70,7 @@ img {vertical-align: middle;}
 
 hr {
   border-style: none none dotted;
-  color: #fff;
+  color: slategrey;
   border-width: 6px;
   width: 7%;
 }
@@ -90,8 +94,8 @@ a:hover {
 .back {
   text-align: center;
   position: fixed;
-  bottom: 2.3%;
-  left: 46.3%;
+  bottom: 20px;
+  left: 667px;
 }
 .container span {
   color: white;
