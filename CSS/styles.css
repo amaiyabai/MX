@@ -39,7 +39,7 @@ a:hover {
   text-align: left;
   background-color: white;
   position: fixed;
-  top: 16.6%; left: 4%;
+  top: 138px; left: 58px;
   border: 1px dashed white;
   opacity: 0.7;
 }
@@ -48,8 +48,7 @@ a:hover {
 .link {
   text-align: center;
   position: fixed;
-  top: 10%;
-  left: 75%;
+  top: 108px; right: 58px;
 }
 .container span {
   color: white;
@@ -67,8 +66,7 @@ a:hover {
 .linked {
   text-align: center;
   position: fixed;
-  top: 15.6%;
-  left: 75%;
+  top: 148px; right: 58px;
 }
 .container span {
   color: white;
