@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("/Users/mai/Desktop/Web Dev/HTML/images/UNADJUSTEDNONRAW_thumb_46.jpg");
+
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about {
+  background-color: white;
+  color: slategrey;
+  border: 1px;
+  letter-spacing: 3px;
+  width: auto;
+  opacity: 0.6;
+  margin: -35px;
+  text-align: center;
+}
+
+/*BIO*/
+.body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  word-spacing: -5px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
