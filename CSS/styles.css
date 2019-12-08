@@ -31,14 +31,14 @@ a:hover {
   text-align: left;
   color: white;
   position: fixed;
-  top: 95px; left: 58px;
+  top: 138px; left: 58px;
 }
 
 .blerbs {
   text-align: left;
   background-color: white;
   position: fixed;
-  top: 138px; left: 58px;
+  top: 188px; left: 58px;
   border: 1px dashed white;
   opacity: 0.7;
 }
@@ -47,7 +47,7 @@ a:hover {
 .link {
   text-align: center;
   position: fixed;
-  top: 118px; right: 58px;
+  top: 138px; right: 58px;
 }
 .container span {
   color: white;
@@ -65,7 +65,7 @@ a:hover {
 .linked {
   text-align: center;
   position: fixed;
-  top: 168px; right: 58px;
+  top: 198px; right: 58px;
 }
 .container span {
   color: white;
