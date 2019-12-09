@@ -41,3 +41,38 @@ body, html {
   font-variant: small-caps;
   text-transform: lowercase;
 }
+
+a {
+  background-color: #FFFFFF;
+  color: #778899;
+  text-decoration: none;
+}
+
+a:active {
+  color: #778899;
+}
+a:visited {
+  background-color: #fff;
+}
+
+a:hover {
+  color: gainsboro;
+}
+
+/*NAV MENU*/
+.information {
+  text-align: center;
+  position: fixed;
+  top: 108px; right: 58px;
+}
+.container span {
+  color: black;
+  text-transform: none;
+  display: block;
+}
+.about {
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  opacity: 0.7;
+}
