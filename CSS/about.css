@@ -60,7 +60,7 @@ a:hover {
 /*NAV MENU*/
 .footer {
   text-align: center;
-  position: fixed;
+  position: 500;
   font-family: "Courier New", Courier, monospace;
   font-size: 22px;
   letter-spacing: 1.2px;
