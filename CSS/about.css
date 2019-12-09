@@ -38,6 +38,7 @@ body, html {
   font-style: normal;
   font-variant: small-caps;
   text-transform: lowercase;
+  padding: 30px;
 }
 
 a {
