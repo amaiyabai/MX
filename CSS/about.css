@@ -14,35 +14,6 @@ body, html {
   background-size: cover;
 }
 
-/*NAV MENU*/
-#pagecontent {
-  text-align: center;
-  position: fixed;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 22px;
-  text-align: center;
-  letter-spacing: 1.2px;
-  word-spacing: -5px;
-  color: #000000;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: small-caps;
-  text-transform: lowercase;
-}
-#navbar {
-  color: black;
-  text-transform: none;
-  display: block;
-}
-#footer {
-  font-size: 32px;
-  font-weight: 100;
-  opacity: 0.7;
-  display: inline-block;
-  float: none;
-}
-
 #about {
   background-color: white;
   color: slategrey;
@@ -84,4 +55,23 @@ a:visited {
 
 a:hover {
   color: gainsboro;
+}
+
+/*NAV MENU*/
+.footer {
+  text-align: center;
+  position: fixed;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  letter-spacing: 1.2px;
+  word-spacing: -5px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  opacity: 0.7;
+  display: inline-block;
+  float: none;
 }
