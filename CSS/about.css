@@ -1,5 +1,5 @@
 body, html {
-  height: 50%;
+  height: 70%;
   margin: 0;
 }
 
@@ -9,8 +9,6 @@ body, html {
 
   /* Full height */
   height: 50%;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,11 +36,11 @@ body, html {
   display: block;
 }
 #footer {
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 100;
   opacity: 0.7;
   display: inline-block;
-  float: none !important;
+  float: none;
 }
 
 #about {
