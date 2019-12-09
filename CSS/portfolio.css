@@ -105,10 +105,6 @@ a:hover {
   color: gainsboro;
 }
 
-#footer {
-  text-align: center;
-}
-
 .container span {
   color: white;
   text-transform: none;
@@ -119,5 +115,6 @@ a:hover {
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 5px;
+  text-align: center;
   opacity: 0.7;
 }
