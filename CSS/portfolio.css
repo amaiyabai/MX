@@ -113,6 +113,7 @@ a:hover {
 
 .footer-content {
   text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
   font-style: normal;
   font-variant: small-caps;
   text-transform: lowercase;
