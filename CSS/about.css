@@ -63,7 +63,17 @@ a:hover {
 .information {
   text-align: center;
   position: fixed;
-  top: 108px; right: 58px;
+   font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  word-spacing: -5px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
 .container span {
   color: black;
