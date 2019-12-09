@@ -1,6 +1,7 @@
 body, html {
   height: 70%;
   margin: 0;
+  overflow: hidden;
 }
 
 .bg {
