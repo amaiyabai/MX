@@ -60,7 +60,14 @@ a:hover {
 }
 
 /*NAV MENU*/
-.information {
+
+pagecontent">
+   <div id="navbar">
+     <!-- all other page content -->
+   </div>
+   <footer id="footer 
+
+#page-container {
   text-align: center;
   position: fixed;
   font-family: "Courier New", Courier, monospace;
@@ -75,12 +82,12 @@ a:hover {
   font-variant: small-caps;
   text-transform: lowercase;
 }
-.container span {
+#navbar {
   color: black;
   text-transform: none;
   display: block;
 }
-.about {
+#footer {
   font-size: 30px;
   font-weight: 100;
   letter-spacing: 5px;
