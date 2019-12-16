@@ -11,7 +11,7 @@ body, html {
 
 img {
   border-style: dotted;
-  position: absolute;
+  position: fixed;
   top: 50px; right: 250px;
   border-radius: 60%;
   width: 170px;
@@ -31,9 +31,9 @@ img {
   font-variant: small-caps;
   text-transform: lowercase;
   min-height: 35vh;
-  position: absolute;
+  position: fixed;
   top: 250px;
-  right: 150px;
+  right: 190px;
 }
 
 hr {
