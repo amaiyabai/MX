@@ -1,26 +1,9 @@
-body, html {
-  background-image: url("https://raw.githubusercontent.com/amaiyabai/MX/master/images/UNADJUSTEDNONRAW_thumb_4c.jpg");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100%;
-  margin: 0;
-  overflow: hidden;
+body {
   font-family: 'Quicksand', Courier, monospace, sans-serif;
-}
-
-img {
-  border-style: dotted;
-  position: fixed;
-  top: 50px; right: 250px;
-  border-radius: 60%;
-  width: 170px;
-  height: auto;
-}
-
-/*BIO*/
-.body {
+  margin: 0;
+  padding: 0;
   text-align: center;
+  margin-left: 120px;
   font-size: 22px;
   letter-spacing: 1.2px;
   word-spacing: -5px;
@@ -30,27 +13,38 @@ img {
   font-style: normal;
   font-variant: small-caps;
   text-transform: lowercase;
-  min-height: 35vh;
-  position: fixed;
-  top: 250px;
-  right: 190px;
+  overflow: hidden;
 }
 
-hr {
-border-style: none none dotted;
-color: slategrey;
-border-width: 6px;
-width: 7%;
-margin-top: 110px;
-margin-right: 285px;
+.w3-right {
+  margin-left: 600px;
+  margin-top: -50px;
+  position: fixed;
+}
+
+.w3-left {
+  padding: 15px;
+  margin-right: 850px;
+  bottom: 0;
+}
+
+.avatar {
+  border-style: dotted;
+  border-radius: 60%;
+  width: 160px;
+  height: auto;
 }
 
 .footer-content {
-  position: absolute;
-  padding: 7px;
-  width: 100%;
-  bottom: 2px;
-  left: 1020px;
+  position: static;
+  margin-right: 850px;
+}
+
+hr {
+  border-style:  none none dotted;
+  color: slategrey;
+  border-width: 5px;
+  width: 30%;
 }
 
 a:any-link {
