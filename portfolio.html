@@ -2,81 +2,128 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width", initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Montserrat&display=swap" rel="stylesheet">
+    <title></title>
     <link rel="stylesheet" href="CSS/portfolio.css">
   </head>
   <body>
-    <hr>
-    <div class="slideshow-container">
+    <!DOCTYPE html>
+<html>
+<body>
+<h1 style="text-align:center">Mai Xiong</h1>
+<h2 style="text-align:center">
+    <a href="https://m-xiong.com/">Home</a>
+    <a href="https://m-xiong.com/about.html">About</a>
+    <a href="#">Instagram</a>
+</h2>
 
-<div class="mySlides fade">
-  	<img src="https://img1.wsimg.com/isteam/ip/283eb95c-5e94-4dc5-9899-5f7b231c194a/FUKUOKA_JKIM.jpg" style="width:100%">
+<div class="row">
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/FUKUOKA_JKIM.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="cursor" border="1px">
+  </div>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/UNADJUSTEDNONRAW_thumb_4b.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="cursor" border="1px">
+  </div>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/PA241626.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="cursor" border="1px">
+  </div>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/OI000043.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="cursor" border="1px">
+  </div>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/UNADJUSTEDNONRAW_thumb_46.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="cursor" border="1px">
+  </div>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/UNADJUSTEDNONRAW_thumb_44.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="cursor" border="1px">
+  </div>
+    <div class="column">
+    <img src="/https://raw.githubusercontent.com/amaiyabai/MX/master/images/P4042377.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="cursor" border="1px">
+  </div>
 </div>
 
-<div class="mySlides fade">
-     <img src="https://img1.wsimg.com/isteam/ip/283eb95c-5e94-4dc5-9899-5f7b231c194a/UNADJUSTEDNONRAW_thumb_4e.jpg" style="width:100%">
-</div>
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
 
-<div class="mySlides fade">
-     <img src="https://img1.wsimg.com/isteam/ip/283eb95c-5e94-4dc5-9899-5f7b231c194a/P4042377.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-	<img src="https://img1.wsimg.com/isteam/ip/283eb95c-5e94-4dc5-9899-5f7b231c194a/PA241626.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-     <img src="https://img1.wsimg.com/isteam/ip/283eb95c-5e94-4dc5-9899-5f7b231c194a/P4012303.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-     <img src="https://img1.wsimg.com/isteam/ip/283eb95c-5e94-4dc5-9899-5f7b231c194a/UNADJUSTEDNONRAW_thumb_4b.jpg" style="width:100%">
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	<script>
-		var slideIndex = 1;
-		showSlides(slideIndex);
-
-		function plusSlides(n) {
-		  showSlides(slideIndex += n);
-		}
-
-		function currentSlide(n) {
-		  showSlides(slideIndex = n);
-		}
-
-		function showSlides(n) {
-		  var i;
-		  var slides = document.getElementsByClassName("mySlides");
-		  var dots = document.getElementsByClassName("dot");
-		  if (n > slides.length) {slideIndex = 1}
-		  if (n < 1) {slideIndex = slides.length}
-		  for (i = 0; i < slides.length; i++) {
-		      slides[i].style.display = "none";
-		  }
-		  for (i = 0; i < dots.length; i++) {
-		      dots[i].className = dots[i].className.replace(" active", "");
-		  }
-		  slides[slideIndex-1].style.display = "block";
-		  dots[slideIndex-1].className += " active";
-		}
-	</script>
-
-</div>
-<hr>
-      <div class="body">
-	can hardly call it a portfolio
-      </div>
-    <footer>
-
-    <div class="footer-content">
-	<span class="container">
-      <a href="https://m-xiong.com/">HOME</a> | <a href="https://m-xiong.com/about.html">ABOUT</a>
-	</span>
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/FUKUOKA_JKIM.jpg" style="width:100%">
     </div>
-        </footer>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/UNADJUSTEDNONRAW_thumb_4b.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/PA241626.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/OI000043.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/UNADJUSTEDNONRAW_thumb_46.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/UNADJUSTEDNONRAW_thumb_44.jpg" style="width:100%">
+    </div>
+															      
+	<div class="mySlides">
+      <div class="numbertext">7 / 7</div>
+      <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/P4042377.jpg" style="width:100%">
+    </div>
+															      
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
   </body>
 </html>
