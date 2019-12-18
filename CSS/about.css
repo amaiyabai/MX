@@ -4,15 +4,12 @@ body {
   padding: 0;
   text-align: center;
   margin-left: 120px;
-  font-size: 22px;
+  font-size: .965rem;
   letter-spacing: 1.2px;
-  word-spacing: -5px;
   color: #000000;
   font-weight: normal;
   text-decoration: none;
   font-style: normal;
-  font-variant: small-caps;
-  text-transform: lowercase;
   overflow: hidden;
 }
 
@@ -25,7 +22,7 @@ body {
 .w3-left {
   padding: 15px;
   margin-right: 850px;
-  bottom: 0;
+  top: 100px;
 }
 
 .avatar {
@@ -35,7 +32,7 @@ body {
   height: auto;
 }
 
-.footer-content {
+.bottom-container {
   position: static;
   margin-right: 850px;
 }
