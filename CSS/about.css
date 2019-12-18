@@ -22,7 +22,8 @@ body {
 .w3-left {
   padding: 15px;
   margin-right: 850px;
-  top: 100px;
+  top: 50px;
+  position: relative;
 }
 
 .avatar {
@@ -30,11 +31,6 @@ body {
   border-radius: 60%;
   width: 160px;
   height: auto;
-}
-
-.bottom-container {
-  position: static;
-  margin-right: 850px;
 }
 
 hr {
@@ -45,7 +41,7 @@ hr {
 }
 
 a:any-link {
-  color: #52606B;
+  color: #000;
   text-decoration: none;
 }
 a:visited {
@@ -53,4 +49,12 @@ a:visited {
 }
 a:hover {
   color: gainsboro;
+}
+
+.bottom-container {
+  margin: 100px;
+  width: 20%;
+  background: gray;
+  opacity: 0.6;
+
 }
