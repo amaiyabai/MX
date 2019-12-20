@@ -1,67 +1,44 @@
 body, html {
   background: url(https://raw.githubusercontent.com/amaiyabai/MX/master/images/P4042400.jpg) no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
 
-.container {
-  top: 600px;
-  position: absolute;
-  left: 520px;
-  margin: 20px;
-  width: auto;
-  line-height: 3;
-}
-
-/* The navbar */
-.topnav {
+.header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  overflow: hidden;
-  background-color: #fff;
-  opacity: 0.9;
 }
 
-/* Navbar links */
-.topnav a {
-  float: left;
+.header-content h1 {
+  color: white;
+  font-size: 10em;
+  text-decoration: underline overline;
+ /* Margins */
+  margin-bottom: 0.5em;
+  margin-top: .10em;
+  opacity: 0.8;
+}
+
+a:any-link {
+  background-color: white;
+  opacity: 0.6;
   color: black;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 1em;
+  margin-top: 20em;
+  display: inline-block;
+  width: 250px;
   text-decoration: none;
-  font-size: 17px;
+
+   /* Border styles */
+   border: 1px dotted black;
+
 }
 
-.topnav a:hover {
-  background-color: gray;
-  color: white;
-  opacity: 0.4;
-}
-
-.top-container {
-  padding: 10px;
-  font-size: 2.5rem;
-  opacity: 0.8;
-  color: white;
-  text-decoration: overline underline;
-  text-align: center;
-}
-
-h1 {
-  font-family: 'Cormorant Garamond', cursive, serif;
-}
-
-.footing {
-  color: white;
-  opacity: 0.8;
-}
-
-.footer-contents {
-  text-align: center;
-  padding-bottom: 10px;
-  position: absolute;
-  bottom: 2px;
-  width: 100%;
+   /* LINK STYLES */
+a:hover {
+  color: gainsboro;
 }
