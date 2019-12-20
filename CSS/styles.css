@@ -42,3 +42,8 @@ a:any-link {
 a:hover {
   color: gainsboro;
 }
+
+@media all and (max-width: 768px) {
+    .container{
+        width:100%;
+}
