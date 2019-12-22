@@ -1,49 +1,68 @@
-body, html {
-  background: url(https://raw.githubusercontent.com/amaiyabai/MX/master/images/P4042400.jpg) no-repeat center center fixed;
+body {
+  background: url(https://raw.githubusercontent.com/amaiyabai/MX/master/images/P4052452.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.header {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Sanchez', serif;
   text-align: center;
 }
 
-.header-content h1 {
-  color: white;
-  font-size: 10em;
-  text-decoration: underline overline;
- /* Margins */
-  margin-bottom: 0.5em;
-  margin-top: .10em;
+main {
+  max-width: 900px;
+}
+
+#full-content {
+  top: 50px;
+}
+#full-content h1 {
   opacity: 0.8;
+  font-size: 6em;
+  color: white;
+  text-decoration: overline underline;
 }
 
-a:any-link {
-  background-color: white;
-  opacity: 0.6;
-  color: black;
-  padding: 1em;
-  margin-top: 20em;
+#navigation {
   display: inline-block;
-  width: 250px;
+  position: absolute;
+  bottom: 5rem;
+  left: 24rem;
+}
+
+.nav-btn {
+  font-size: 2.5em;
+  margin: 0.98rem;
+  padding: -1.05rem 1rem;
+  opacity: 0.6;
+  background: #eee;
+  color: #ccc;
+  transition: background 500ms ease;
   text-decoration: none;
-
-   /* Border styles */
-   border: 1px dotted black;
-
+  font-variant: small-caps;
 }
 
-   /* LINK STYLES */
-a:hover {
-  color: gainsboro;
+.nav-btn:hover {
+  background: slategrey;
+  color: white;
 }
 
-@media all and (max-width: 768px) {
-    .container{
-        width:100%;
+@media (min-width: 500px) {
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+
+  #landing-text {
+    height: 100vh;
+  }
+
+  #landing-image {
+    height: 100vh;
+  }
+}
+
+@media(min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
 }
