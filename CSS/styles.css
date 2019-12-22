@@ -1,6 +1,6 @@
 body {
-  background: url(https://raw.githubusercontent.com/amaiyabai/MX/master/images/P4052452.jpg) no-repeat;
-  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+  rgba(0,0,0,0.25) url('https://raw.githubusercontent.com/amaiyabai/MX/master/images/P4052452.jpg') no-repeat center;
   background-size: cover;
   height: 90vh;
   margin: 0;
