@@ -4,29 +4,82 @@
     <meta charset="utf-8">
      <meta name="view-port" content="width=device-width, intial-scale=1.0">
      <link rel="stylesheet" href="CSS/about.css">
+     <link rel="icon" href="favicon.ico">
      <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <title></title>
+    <title>About Mai</title>
   </head>
   <body>
-    <div class="w3-right">
-      <img src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/UNADJUSTEDNONRAW_thumb_4c.jpg" />
-    </div>
-    <div class="w3-left">
-      <img class="avatar" src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/UNADJUSTEDNONRAW_thumb_76.jpg" alt="Avatar" border=3px>
-            <hr>
-          <p>Before she became unemployed to focus on web designing full on, Mai Xiong worked full-time as a barista in Cupertino, CA.</p>
-          <p>She first dabbled in coding at 10 years old to make layouts for <underline>asianavenue</underline> & <underline>xanga</underline>, but
-            has not touched coding since and only recently picked it back up.
-            </p>
-          <p>When she isn't writing about herself in the third-person, she enjoys taking photos, latte pouring and looking up
-            recipes to cook for her girlfriend. </p>
+    <main>
+      <!-- LANDING AREA -->
+      <div id="landing">
+        <div id="landing-text">
+          <div class="navigation">
+          <a href="https://m-xiong.com/" class="btn" id="view-home">Home</a>
 
-            <p>
-            Mai and her girlfriend both enjoy staring at their dog, Casey.
-            </p>
-      </div>
-          <div class="bottom-container">
-            <a href="https://m-xiong.com/">HOME</a> | <a href="https://m-xiong.com/portfolio.html">PORTFOLIO</a>
+          <a href="https://m-xiong.com/portfolio.html" class="btn" id="view-portfolio">Photographs</a>
+
+          <a href="https://instagram.com/amai.0" class="btn" id="view-instagram">Instagram</a>
           </div>
+          <div id="landing-text-inner">
+            <img class="profile" src="https://raw.githubusercontent.com/amaiyabai/MX/master/images/UNADJUSTEDNONRAW_thumb_76.jpg" border=2 alt="profile in japan">
+            <h1>Mai Xiong</h1>
+            <div class="paragraph">
+              <p>
+              Before she became unemployed to focus on web designing full on, Mai Xiong worked full-time as a barista in Cupertino, CA.
+              She first dabbled in coding at 10 years old to make layouts for asianavenue& xanga, but
+              has not touched coding since.</p>
+
+              When she isn't writing about herself in the third-person, she enjoys taking photos, latte pouring and looking up
+              recipes to cook for her girlfriend. </div>
+          </div>
+        </div>
+      <div id="landing-image"></div>
+            </div>
+    </main>
+    <footer>
+    </div>
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+  <script src="js/main.js"></script>
+
+  <script>
+function openModal() {
+document.getElementById("myModal").style.display = "block";
+}
+function closeModal() {
+document.getElementById("myModal").style.display = "none";
+}
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("demo");
+var captionText = document.getElementById("caption");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
   </body>
 </html>
