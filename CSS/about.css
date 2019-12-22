@@ -1,62 +1,89 @@
 body {
-  font-family: 'Quicksand', Courier, monospace, sans-serif;
+  font-family: Quicksand, Courier, monospace, sans-serif;
   margin: 0;
-  padding: 0;
   text-align: center;
-  margin-left: 120px;
-  font-size: .965rem;
-  letter-spacing: 1.2px;
-  color: #000000;
-  font-weight: normal;
+  background-color: white;
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 50vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#landing-text h1 {
+  text-align: center;
+  color: gainsboro;
+  display: flex;
+}
+
+.paragraph {
+  width: 30vw;
+}
+
+#landing-image {
+  background: url(https://raw.githubusercontent.com/amaiyabai/MX/master/images/UNADJUSTEDNONRAW_thumb_4c.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  flex: 0 1 50vw;
+  margin: 0;
+}
+
+
+.btn {
+  padding: 0.05rem 1rem;
+  display: inline-block;
   text-decoration: none;
-  font-style: normal;
+  background-color: #fff;
+  color: black;
+  transition: background 500ms ease;
 }
 
-.w3-right {
-  float: right;
-  width: 50%;
-  box-sizing: content-box;
-  z-index: 2;
-   }
-
-.w3-left {
-  width: 40%;
-  left: 200px;
-  padding: 15px;
-  top: 50px;
-}
-
-.avatar {
-  border-style: dotted;
-  border-radius: 60%;
-  width: 160px;
-  height: auto;
-}
-
-hr {
-  border-style:  none none dotted;
-  color: slategrey;
-  border-width: 5px;
-  width: 30%;
-}
-
-a:any-link {
-  color: #000;
-  text-decoration: none;
-}
-a:visited {
-  background-color: #FFFFFF;
-}
-a:hover {
+.btn:hover {
+  background-color: white;
   color: gainsboro;
 }
 
-.bottom-container {
-  width: 50%;
-
+/*PROFILEPHOTO*/
+.profile {
+  border-radius: 50%;
+  border-style: dotted;
+  width: 150px;
+  height: auto;
 }
 
-@media all and (max-width: 768px) {
-    .container{
-        width:100%;
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* SCREEN SIZES 500PX AND UP */
+@media (min-width: 500px) {
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+
+  #landing-text {
+    height: 100vh;
+  }
+
+  #landing-image {
+    height: 100vh;
+  }
+}
+
+@media(min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
 }
